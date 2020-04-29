@@ -1,0 +1,133 @@
+header {
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+    background-size: 100% 100%;
+    font-family: 'Abril Fatface', cursive;
+    color: #222;
+    font-size: 30px;
+    position: relative;
+  }
+  
+  .title {
+    position: absolute;
+    left: 260px;
+    bottom: 30px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  h2 {
+    margin: 0;
+    font-size: 34px;
+  }
+  
+  .paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    left: 600px;
+    font-size: 18px;
+    margin-top: 60px;
+    color: #222;
+  }
+  
+  .list {
+    position: relative;
+    left: 600px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+  }
+  
+  li {
+    margin: 10px;
+    list-style-type: square;
+  }
+  
+  blockquote::before {
+    content: '”';
+    background: #444;
+    color: white;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 100px;
+    height: 50px;
+  }
+  
+  
+  blockquote {
+    background: #444;
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    font-size: 46px;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Abril Fatface', cursive;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    position: relative;
+    left: 600px;
+    margin-bottom: 60px;
+    color: #222;
+  }
+  
+  .paragraph1 {
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    left: 600px;
+    font-size: 20px;
+    margin-top: 60px;
+    font-weight: bold;
+    color: #222;
+  }
+    
+  .paragraph2 {
+    font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    left: 600px;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: #222;
+    }
+  
+  .block {
+    background: #444;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    text-align: left;
+  }
+  
+  .list1 {
+    position: relative;
+    left: 600px;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+  }
+  
+  .italic {
+    font-style: italic;
+    font-size: 15px;
+  }
+  
+  hr {
+    margin: 0 auto;
+    width: 700px;
+    border: 1px solid;
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
